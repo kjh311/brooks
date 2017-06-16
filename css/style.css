@@ -6,9 +6,60 @@
  * Made By MaterializeCSS.com
  */
 
+.active{
+  /*background-color: blue;*/
+}
+ body{
+  background-color: #212121;
+  color: #fafafa;
+ }
+.email{
+  margin-top: 15px;
+}
+.head-shot{
+  width: 98vw;
+  /*height: 300px;*/
+}
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
+}
+.icon-pic{
+  width: 40px;
+  height: 40px;
+  top: 10px;
+  position: relative;
+  /*border: 2px solid black;*/
+  /*border-radius: 50%;*/
+}
+
+.image-row{
+  /*border: 2px solid red;*/
+  /*width: 100vw;*/
+  position: relative;
+  top: -40px;
+  /*background-image: url('assets/temp-image.jpg');*/
+}
+.name{
+  position: absolute;
+  top: 40px;
+  color: white;
+  left: 30px;
+}
+.navey-nav{
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  background-color: #70A9A1;
+  /*border-bottom: 2px solid black;*/
+}
+.orange-text{
+  color: orange;
+  margin-top:15px;
+}
+#sidenav-overlay{
+  z-index: 999 !important;
+  position: inherit;
 }
