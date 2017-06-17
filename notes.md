@@ -5,3 +5,6 @@ http://bobbrockman.com/index.asp
 
 http://affordanything.com/paula-pant-official-bio/
   <!-- likes the effectiveness, but looks amaturish -->
+
+
+free stock photos from: https://www.pexels.com
