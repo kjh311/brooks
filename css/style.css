@@ -9,9 +9,45 @@
 .active{
   /*background-color: blue;*/
 }
+.awards{
+  width: 100%;
+  transform: scale(1);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  border: 2px solid rgba(0,0,0,0);
+  padding: 10px;
+  /*margin: 10px;*/
+}
+.awards:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  border: 2px solid orange;
+}
+.auto-pic{
+  width: 100%;
+  transform: scale(1);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  border: 2px solid rgba(0,0,0,0);
+  padding: 10px;
+  margin-top: 10px;
+}
+.auto-pic:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  border: 2px solid orange;
+}
  body{
-  background-color: #212121;
+  /*background-color: #212121;*/
+  background-color: black;
   color: #fafafa;
+  font-size: 16px;
  }
  .bottom-padding{
   height: 50px;
@@ -36,6 +72,8 @@
 }
 .head-shot{
   width: 98vw;
+  position: relative;
+  top: 50px;
   /*height: 300px;*/
 }
 .icon-block {
@@ -52,17 +90,17 @@
   /*border: 2px solid black;*/
   /*border-radius: 50%;*/
 }
-.video-container{
-  display: block;
-  /*background-color: red;*/
-  /*background-image: url("/assets/portrait.jpg");*/
+.index-text{
+  z-index: 10;
+  top: -200px;
+  position: relative;
 }
 iframe{
-  border: 2px solid rgba(0,0,0,0);
+  /*border: 2px solid rgba(0,0,0,0);*/
   
 }
 iframe:hover{
-  border: 2px solid orange;
+  /*border: 2px solid orange;*/
 }
 
 .image-row{
@@ -73,13 +111,14 @@ iframe:hover{
   /*background-image: url('assets/temp-image.jpg');*/
 }
 .millionaire{
-  width: 500px;
+  width: 100%;
   margin-top: 15px;
   transform: scale(1);
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   border: 2px solid rgba(0,0,0,0);
+  padding: 10px;
 }
 .millionaire:hover{
   transform: scale(1.05);
@@ -93,6 +132,7 @@ iframe:hover{
   top: 40px;
   color: white;
   left: 60px;
+  z-index: 10;
   text-shadow: 2px 2px black;
 }
 .navey-nav{
@@ -110,6 +150,65 @@ iframe:hover{
   z-index: 999 !important;
   position: inherit;
 }
+.slogan{
+  z-index: 20;
+  position: absolute;
+  color: white;
+  top: 200px;
+  left: 200px;
+  width: 400px;
+  line-height: 1.5;
+}
+.speech{
+  width: 100%;
+  transform: scale(1);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  /*margin: 10px;*/
+  padding: 10px;
+  border: 2px solid rgba(0,0,0,0);
+}
+.speech:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  border: 2px solid orange;
+}
+.video-container{
+  display: block;
+  border: 2px solid red;
+  transform: scale(1);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+.video-container:hover{
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
 .white-text{
   color: white;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .name{
+    font-size: 2em;
+    width: 100px;
+  }
+  .index-text{
+    top: -50px;
+  }
+  .slogan{
+    left: 100px;
+    font-size: 1em;
+    top: 150px;
+    width: 200px;
+  }
+
 }
