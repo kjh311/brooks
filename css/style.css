@@ -6,6 +6,13 @@
  * Made By MaterializeCSS.com
  */
 
+
+a#consulting {
+    display: block;
+    position: relative;
+    top: -30px;
+    visibility: hidden;
+}
 .active{
   /*background-color: blue;*/
 }
@@ -49,11 +56,44 @@
   color: #fafafa;
   font-size: 16px;
  }
+ .book{
+  width: 200px;
+  padding: 20px;
+  transform: scale(1);
+  border: 2px solid rgba(0,0,0,0);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+ }
+ .book:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  border: 2px solid orange;
+ }
  .bottom-padding{
   height: 50px;
  }
  .brand-logo{
   text-shadow: 2px 2px black;
+ }
+ .button-collapse{
+  float: right !important;
+ }
+ .collapsible-header{
+  color: black;
+  /*left: 20px;*/
+  position: relative;
+ }
+ .top-link{
+  left: -30px;
+  position: relative;
+ }
+ .nav-link{
+  color: black;
+  left: 20px;
+  position: relative;
  }
 .email{
   margin-top: 15px;
@@ -135,6 +175,14 @@ iframe:hover{
   z-index: 10;
   text-shadow: 2px 2px black;
 }
+.experience-name{
+  position: absolute;
+  top: 40px;
+  color: white;
+  right: 60px;
+  z-index: 10;
+  text-shadow: 2px 2px black;
+}
 .navey-nav{
   position: fixed;
   top: 0;
@@ -200,6 +248,11 @@ iframe:hover{
   .name{
     font-size: 2em;
     width: 100px;
+  }
+  .experience-name{
+    font-size: 2em;
+    width: 100px;
+    right: 100px;
   }
   .index-text{
     top: -50px;
