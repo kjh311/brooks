@@ -16,6 +16,9 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
 .active{
   /*background-color: blue;*/
 }
+.a-link{
+  left:-20px;
+}
 .awards{
   width: 100%;
   transform: scale(1);
@@ -83,8 +86,13 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
  }
  .collapsible-header{
   color: black;
+  width: 300px !important; 
   /*left: 20px;*/
   position: relative;
+ }
+ .drag-target{
+  /*width: 30%;*/
+  z-index: 1;
  }
  .top-link{
   left: -30px;
@@ -92,8 +100,10 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
  }
  .nav-link{
   color: black;
-  left: 20px;
+  /*left: 20px;*/
+  text-indent: 20px;
   position: relative;
+
  }
 .email{
   margin-top: 15px;
@@ -167,6 +177,9 @@ iframe:hover{
   -moz-transition: all 0.5s ease;
   border: 2px solid orange;
 }
+.mobile-link{
+  font-size: 1.5em;
+}
 .name{
   position: absolute;
   top: 40px;
@@ -190,6 +203,9 @@ iframe:hover{
   background-color: #70A9A1;
   /*border-bottom: 2px solid black;*/
 }
+.nav-mobile{
+  z-index: 999;
+}
 .orange-text{
   color: orange;
   margin-top:15px;
@@ -197,6 +213,9 @@ iframe:hover{
 #sidenav-overlay{
   z-index: 999 !important;
   position: inherit;
+}
+.side-nav{
+  width: 250px;
 }
 .slogan{
   z-index: 20;
