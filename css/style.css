@@ -215,7 +215,7 @@ iframe:hover{
   position: inherit;
 }
 .side-nav{
-  width: 250px;
+  /*width: 250px;*/
 }
 .slogan{
   z-index: 20;
@@ -261,6 +261,35 @@ iframe:hover{
   color: white;
 }
 
+
+/*DROPDOWN NAV*/
+nav ul ul {
+  display: none;
+}
+
+  nav ul li:hover > ul {
+    display: block;
+  }
+
+  nav ul ul {
+  background: #5f6975; 
+  border-radius: 0px; padding: 0;
+  position: absolute; top: 100%;
+}
+  nav ul ul li {
+    float: none; 
+    border-top: 1px solid #6b727c;
+    border-bottom: 1px solid #575f6a;
+    position: relative;
+  }
+    nav ul ul li a {
+      padding: 2px 20px;
+      color: #fff;
+    } 
+      nav ul ul li a:hover {
+        background: #4b545f;
+        
+      }
 
 
 @media only screen and (max-width: 800px) {
