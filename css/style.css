@@ -7,10 +7,10 @@
  */
 
 
-a#consulting {
+a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglist, a#youtube, a#books, a#auto-consulting, a#story, a#academia, a#business, a#innovation {
     display: block;
     position: relative;
-    top: -30px;
+    top: -60px;
     visibility: hidden;
 }
 .active{
