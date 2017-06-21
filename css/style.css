@@ -61,7 +61,8 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
  }
  .book{
   width: 200px;
-  padding: 20px;
+  /*float: left;*/
+  margin: 40px;
   transform: scale(1);
   border: 2px solid rgba(0,0,0,0);
   transition: all 0.5s ease;
@@ -79,7 +80,7 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
   height: 50px;
  }
  .brand-logo{
-  text-shadow: 2px 2px black;
+  /*text-shadow: 2px 2px black;*/
  }
  .button-collapse{
   float: right !important;
@@ -272,23 +273,26 @@ nav ul ul {
   }
 
   nav ul ul {
-  background: #5f6975; 
+  background: #1565c0; 
   border-radius: 0px; padding: 0;
   position: absolute; top: 100%;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
 }
   nav ul ul li {
     float: none; 
     border-top: 1px solid #6b727c;
     border-bottom: 1px solid #575f6a;
     position: relative;
+
   }
     nav ul ul li a {
       padding: 2px 20px;
       color: #fff;
     } 
       nav ul ul li a:hover {
-        background: #4b545f;
-        
+        background: #0d47a1;
+
+
       }
 
 
