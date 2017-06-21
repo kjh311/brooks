@@ -60,9 +60,10 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
   font-size: 16px;
  }
  .book{
-  width: 200px;
+  width: 80%;
   /*float: left;*/
-  margin: 40px;
+  margin: 20px;
+  padding: 20px;
   transform: scale(1);
   border: 2px solid rgba(0,0,0,0);
   transition: all 0.5s ease;
@@ -81,6 +82,10 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
  }
  .brand-logo{
   /*text-shadow: 2px 2px black;*/
+  font-family: 'Bree Serif', serif;
+ }
+ .bree{
+  font-family: 'Bree Serif', serif;
  }
  .button-collapse{
   float: right !important;
@@ -90,6 +95,9 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
   width: 300px !important; 
   /*left: 20px;*/
   position: relative;
+ }
+ .contact{
+  font-family: 'Bree Serif', serif;
  }
  .drag-target{
   /*width: 30%;*/
@@ -183,6 +191,7 @@ iframe:hover{
 }
 .name{
   position: absolute;
+  font-family: 'Bree Serif', serif;
   top: 40px;
   color: white;
   left: 60px;
@@ -191,6 +200,7 @@ iframe:hover{
 }
 .experience-name{
   position: absolute;
+  font-family: 'Bree Serif', serif;
   top: 40px;
   color: white;
   right: 60px;
@@ -209,7 +219,10 @@ iframe:hover{
 }
 .orange-text{
   color: orange;
-  margin-top:15px;
+  /*margin-top:15px;*/
+}
+p{
+  /*text-indent: 20px;*/
 }
 #sidenav-overlay{
   z-index: 999 !important;
