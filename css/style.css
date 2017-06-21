@@ -103,6 +103,10 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
   /*width: 30%;*/
   z-index: 1;
  }
+ .experience-container{
+  position: relative;
+  top: -170px;
+ }
  .top-link{
   left: -30px;
   position: relative;
@@ -131,6 +135,16 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
 }
 .form{
   width: 100%;
+  transform: scale(1);
+  border: 2px solid rgba(0,0,0,0);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  border: 2px solid rgba(0,0,0,0);
+}
+.form:hover{
+  border: 2px solid orange;
+  /*transform: scale(1.05);*/
 }
 .head-shot{
   width: 98vw;
@@ -206,7 +220,7 @@ iframe:hover{
   font-family: 'Bree Serif', serif;
   top: 40px;
   color: white;
-  right: 60px;
+  right: 100px;
   z-index: 10;
   text-shadow: 2px 2px black;
 }
@@ -344,6 +358,10 @@ nav ul ul {
     width: 100px;
     right: 100px;
   }
+  .experience-container{
+  position: relative;
+  top: -100px;
+ }
   .index-text{
     top: -50px;
   }
