@@ -60,7 +60,7 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
   font-size: 16px;
  }
  .book{
-  width: 80%;
+  width: 90%;
   /*float: left;*/
   margin: 20px;
   padding: 20px;
@@ -128,6 +128,9 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   border: 2px solid rgba(0,0,0,0);
+}
+.form{
+  width: 100%;
 }
 .head-shot{
   width: 98vw;
@@ -207,6 +210,9 @@ iframe:hover{
   z-index: 10;
   text-shadow: 2px 2px black;
 }
+li{
+  list-style-type:none
+}
 .navey-nav{
   position: fixed;
   top: 0;
@@ -273,6 +279,25 @@ p{
 }
 .white-text{
   color: white;
+}
+.youtube{
+  padding: 20px;
+ 
+  border: 2px solid rgba(0,0,0,0);
+  transform: scale(1);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+.youtube:hover{
+  border: 2px solid orange;
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+.youtube-pic{
+   width: 100%;
 }
 
 
