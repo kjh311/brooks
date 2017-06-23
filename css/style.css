@@ -266,6 +266,9 @@ li{
 p{
   /*text-indent: 20px;*/
 }
+.read-description{
+  width: 100% !important;
+}
 #sidenav-overlay{
   z-index: 999 !important;
   position: inherit;
