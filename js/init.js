@@ -4,18 +4,54 @@
     $('.button-collapse').sideNav();
 
 
+$('.consult-mobile-link').click(function(){
+      $('.consult-minus').toggleClass("hidden");
+      $('.consult-plus').toggleClass("hidden");
+});
 
- // $('.button-collapse').dropdown({
- //      // inDuration: 300,
- //      // outDuration: 225,
- //      // constrainWidth: false, // Does not change width of dropdown to that of the activator
- //      // hover: true, // Activate on hover
- //      // gutter: 0, // Spacing from edge
- //      // belowOrigin: false, // Displays dropdown below the button
- //      alignment: 'right', // Displays dropdown with edge aligned to the left of button
- //      // stopPropagation: false // Stops event propagation
- //    }
- //  );
+$('.experience-mobile-link').click(function(){
+      $('.experience-minus').toggleClass("hidden");
+      $('.experience-plus').toggleClass("hidden");
+});
+
+$('.automotive-mobile-link').click(function(){
+      $('.automotive-minus').toggleClass("hidden");
+      $('.automotive-plus').toggleClass("hidden");
+});
+
+
+// $('.consult-mobile-link').mouseover(function(){
+//       $('.consult-minus').toggleClass("hidden");
+//       $('.consult-plus').toggleClass("hidden");
+// });
+
+// $('.experience-mobile-link').mouseover(function(){
+//       $('.experience-minus').toggleClass("hidden");
+//       $('.experience-plus').toggleClass("hidden");
+// });
+
+// $('.automotive-mobile-link').mouseover(function(){
+//       $('.automotive-minus').toggleClass("hidden");
+//       $('.automotive-plus').toggleClass("hidden");
+// });
+
+$('.consult-mobile-link').mouseleave(function(){
+      $('.consult-minus').toggleClass("hidden");
+      $('.consult-plus').toggleClass("hidden");
+});
+
+$('.experience-mobile-link').mouseleave(function(){
+      $('.experience-minus').toggleClass("hidden");
+      $('.experience-plus').toggleClass("hidden");
+});
+
+$('.automotive-mobile-link').mouseleave(function(){
+      $('.automotive-minus').toggleClass("hidden");
+      $('.automotive-plus').toggleClass("hidden");
+});
+
+
+
 
  $('.button-collapse').sideNav({
       menuWidth: 300, // Default is 300
