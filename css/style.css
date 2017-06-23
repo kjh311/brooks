@@ -126,11 +126,14 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
   top: -200px;
  }
  .top-link{
-  left: -30px;
+  left: 20px;
   font-size: 1.6em !important;
   position: relative;
   font-weight: 600 !important;
  }
+ .top-link-header{
+  margin-left: -33px;
+}
  .nav-link{
   color: black;
   /*left: 20px;*/
