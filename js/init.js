@@ -3,52 +3,57 @@
 
     $('.button-collapse').sideNav();
 
-
-$('.consult-mobile-link').click(function(){
-      $('.consult-minus').toggleClass("hidden");
-      $('.consult-plus').toggleClass("hidden");
-});
-
-$('.experience-mobile-link').click(function(){
-      $('.experience-minus').toggleClass("hidden");
-      $('.experience-plus').toggleClass("hidden");
-});
-
-$('.automotive-mobile-link').click(function(){
-      $('.automotive-minus').toggleClass("hidden");
-      $('.automotive-plus').toggleClass("hidden");
-});
+    
 
 
-// $('.consult-mobile-link').mouseover(function(){
+
+
+
+// $('.consult-mobile-link').click(function(){
 //       $('.consult-minus').toggleClass("hidden");
 //       $('.consult-plus').toggleClass("hidden");
 // });
 
-// $('.experience-mobile-link').mouseover(function(){
+// $('.experience-mobile-link').click(function(){
 //       $('.experience-minus').toggleClass("hidden");
 //       $('.experience-plus').toggleClass("hidden");
 // });
 
-// $('.automotive-mobile-link').mouseover(function(){
+// $('.automotive-mobile-link').click(function(){
 //       $('.automotive-minus').toggleClass("hidden");
 //       $('.automotive-plus').toggleClass("hidden");
 // });
 
-$('.consult-mobile-link').mouseleave(function(){
-      $('.consult-minus').toggleClass("hidden");
-      $('.consult-plus').toggleClass("hidden");
-});
 
-$('.experience-mobile-link').mouseleave(function(){
-      $('.experience-minus').toggleClass("hidden");
-      $('.experience-plus').toggleClass("hidden");
-});
+// // $('.consult-mobile-link').mouseover(function(){
+// //       $('.consult-minus').toggleClass("hidden");
+// //       $('.consult-plus').toggleClass("hidden");
+// // });
 
-$('.automotive-mobile-link').mouseleave(function(){
-      $('.automotive-minus').toggleClass("hidden");
-      $('.automotive-plus').toggleClass("hidden");
-});
+// // $('.experience-mobile-link').mouseover(function(){
+// //       $('.experience-minus').toggleClass("hidden");
+// //       $('.experience-plus').toggleClass("hidden");
+// // });
+
+// // $('.automotive-mobile-link').mouseover(function(){
+// //       $('.automotive-minus').toggleClass("hidden");
+// //       $('.automotive-plus').toggleClass("hidden");
+// // });
+
+// $('.consult-mobile-link').mouseleave(function(){
+//       $('.consult-minus').toggleClass("hidden");
+//       $('.consult-plus').toggleClass("hidden");
+// });
+
+// $('.experience-mobile-link').mouseleave(function(){
+//       $('.experience-minus').toggleClass("hidden");
+//       $('.experience-plus').toggleClass("hidden");
+// });
+
+// $('.automotive-mobile-link').mouseleave(function(){
+//       $('.automotive-minus').toggleClass("hidden");
+//       $('.automotive-plus').toggleClass("hidden");
+// });
 
 
 

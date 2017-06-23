@@ -100,6 +100,9 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
  .contact{
   font-family: 'Bree Serif', serif;
  }
+ .contact-form{
+  width: 100%;
+ }
  .contact-link{
   transform: scale(1);
   padding: 10px;
@@ -390,7 +393,7 @@ nav ul ul {
     nav ul ul li a {
       padding: 2px 30px;
       color: #fff;
-      line-height: 3.5;
+      line-height: 3;
     } 
       nav ul ul li a:hover {
         background: #0d47a1;
