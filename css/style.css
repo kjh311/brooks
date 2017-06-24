@@ -426,11 +426,17 @@ nav ul ul {
     top: 150px;
     width: 200px;
   }
-  .awards, .email, .auto-pic, .book, .contact-link, .email, .form, .millionaire, .social-icon, .speech, .video-container, .youtube{
+  .awards:hover, .email:hover, .auto-pic:hover, .book:hover, .email:hover, .form:hover, .millionaire:hover, .social-icon:hover, .speech:hover, .video-container:hover, .youtube:hover{
     transform: scale(1);
     transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
+
   }
+  .contact-link:hover{
+    font-size: 1em;
+  }
+
+  
 
 }
