@@ -7,7 +7,7 @@
  */
 
 
-a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglist, a#youtube, a#books, a#auto-consulting, a#story, a#academia, a#business, a#innovation {
+a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglist, a#youtube, a#books, a#auto-consulting, a#story, a#academia, a#business, a#innovation, a#connect, a#consult {
     display: block;
     position: relative;
     top: -60px;
@@ -278,6 +278,7 @@ p{
 .read-description{
   width: 100% !important;
 }
+
 #sidenav-overlay{
   z-index: 999 !important;
   position: inherit;
@@ -371,6 +372,7 @@ p{
 /*DROPDOWN NAV*/
 nav ul ul {
   display: none;
+  
 }
 
   nav ul li:hover > ul {

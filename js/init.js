@@ -3,7 +3,10 @@
 
     $('.button-collapse').sideNav();
 
-    
+    if( $('.li-li').css('display') == 'block' )  { 
+    /*success*/ 
+    alert("hidden");
+} 
 
 
 
