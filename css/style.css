@@ -350,7 +350,6 @@ p{
 }
 .youtube{
   padding: 20px;
- 
   border: 2px solid rgba(0,0,0,0);
   transform: scale(1);
   transition: all 0.5s ease;
@@ -372,7 +371,7 @@ p{
 /*DROPDOWN NAV*/
 nav ul ul {
   display: none;
-  
+
 }
 
   nav ul li:hover > ul {
@@ -426,6 +425,12 @@ nav ul ul {
     font-size: 1em;
     top: 150px;
     width: 200px;
+  }
+  .awards, .email, .auto-pic, .book, .contact-link, .email, .form, .millionaire, .social-icon, .speech, .video-container, .youtube{
+    transform: scale(1);
+    transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
   }
 
 }
