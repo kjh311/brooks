@@ -121,7 +121,7 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
   position: relative;
  }
  .contact-link:hover{
-  transform: scale(1.1);
+  /*transform: scale(1.1);*/
   transition: all 0.5s ease;
   /*font-size: 1.1em;*/
   -webkit-transition: all 0.5s ease;
