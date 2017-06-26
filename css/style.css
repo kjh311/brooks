@@ -88,8 +88,13 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
  .bree{
   font-family: 'Bree Serif', serif;
  }
+ .bullet{
+  padding-left: 1em;
+  text-indent:-1em;
+ }
  .bullet:before{
   content:"• ";
+
 }
  .button-collapse{
   float: right !important;
@@ -153,14 +158,14 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
-  border: 2px solid rgba(0,0,0,0);
+  /*border: 2px solid rgba(0,0,0,0);*/
 }
 .email:hover{
   transform: scale(1.1);
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
-  border: 2px solid rgba(0,0,0,0);
+  /*border: 2px solid rgba(0,0,0,0);*/
 }
 .form{
   width: 100%;
