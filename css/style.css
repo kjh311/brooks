@@ -306,6 +306,8 @@ p{
 .social-icon{
   width: 70px;
   transform: scale(1);
+  margin-left: 10px;
+  margin-right: 10px;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
