@@ -88,6 +88,9 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
  .bree{
   font-family: 'Bree Serif', serif;
  }
+ .bullet:before{
+  content:"• ";
+}
  .button-collapse{
   float: right !important;
  }
@@ -115,7 +118,7 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
  .contact-link:hover{
   transform: scale(1.1);
   transition: all 0.5s ease;
-  font-size: 1.1em;
+  /*font-size: 1.1em;*/
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   border: 2px solid orange;
@@ -330,6 +333,12 @@ p{
 }
 .sub-link{
   margin-left: 20px;
+}
+.tab{
+  /*text-indent: 30px !important;*/
+  margin-left: 30px;
+  position: relative;
+  margin-top: -15px;
 }
 .video-container{
   display: block;
