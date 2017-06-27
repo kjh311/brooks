@@ -72,7 +72,7 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
   -moz-transition: all 0.5s ease;
  }
  .book:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
