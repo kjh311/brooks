@@ -162,7 +162,8 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
   -moz-transition: all 0.5s ease;
  }
  label{
-  color: #cfd8dc !important;
+  /*color: #cfd8dc !important;*/
+  color: #fff !important;
  }
  .top-link{
   left: 20px;
