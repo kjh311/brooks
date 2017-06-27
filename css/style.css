@@ -165,6 +165,9 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
   /*color: #cfd8dc !important;*/
   color: #fff !important;
  }
+ .lb-close{
+  /*background: url(assets/close.png) !important;*/
+ }
  .top-link{
   left: 20px;
   font-size: 1.65em !important;
