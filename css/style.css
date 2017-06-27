@@ -43,18 +43,18 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   border: 2px solid rgba(0,0,0,0);
+  border-radius: 20px;
   padding: 10px;
   margin-top: 10px;
 }
 .auto-pic:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   border: 2px solid orange;
 }
  body{
-  /*background-color: #212121;*/
   background-color: black;
   color: #fafafa;
   font-size: 16px;
@@ -62,11 +62,11 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
  }
  .book{
   width: 90%;
-  /*float: left;*/
   margin: 20px;
   padding: 20px;
   transform: scale(1);
   border: 2px solid rgba(0,0,0,0);
+  border-radius: 20px;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -99,6 +99,13 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
  .button-collapse{
   float: right !important;
  }
+ .caret{
+  color: white !important;
+ }
+ .character-counter{
+  position: relative;
+  margin-top: -50px;
+ }
  .collapsible-header{
   color: black;
   width: 300px !important; 
@@ -118,6 +125,7 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   border: 2px solid rgba(0,0,0,0);
+  border-radius: 20px;
   position: relative;
  }
  .contact-link:hover{
@@ -138,6 +146,23 @@ a#consulting, a#talktome, a#coaching, a#consulting, a#speaking, a#joinmailinglis
  }
  #formValidate{
   border: 2px solid orange;
+  /*background: #424242;*/
+  border-radius: 20px;
+ }
+ .form-button{
+  transform: scale(1);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+ }
+ .form-button:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+ }
+ label{
+  color: #cfd8dc !important;
  }
  .top-link{
   left: 20px;
@@ -370,6 +395,7 @@ p{
 .youtube{
   padding: 20px;
   border: 2px solid rgba(0,0,0,0);
+  border-radius: 20px;
   transform: scale(1);
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
@@ -445,7 +471,7 @@ nav ul ul {
     top: 150px;
     width: 200px;
   }
-  .awards:hover, .email:hover, .auto-pic:hover, .book:hover, .email:hover, .form:hover, .millionaire:hover, .social-icon:hover, .speech:hover, .video-container:hover, .youtube:hover{
+  .awards:hover, .form-button:hover, .email:hover, .auto-pic:hover, .book:hover, .email:hover, .form:hover, .millionaire:hover, .social-icon:hover, .speech:hover, .video-container:hover, .youtube:hover{
     transform: scale(1);
     transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
