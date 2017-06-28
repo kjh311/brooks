@@ -209,24 +209,6 @@
     top: 10px;
     position: relative;
   }
-  .ie-link-div{
-    font-size: 1.3em;
-    position: relative;
-    /*top: 15px;*/
-    height: 60px;
-  }
-  .ie-link-span{
-    top: 15px;
-    position: relative;
-  }
-  .ie-link-name{
-    /*font-size: 1.3em;*/
-    position: relative;
-    top: -15px;
-  }
-  .ie-link-div:hover{
-    background-color: #0d47a1;
-  }
   .index-text{
     z-index: 10;
     top: -200px;
