@@ -265,6 +265,11 @@
     z-index: 200;
     background-color: #70A9A1;
   }
+  .navey-nav2{
+    position: absolute;
+    top: 0;
+    z-index: 100;
+  }
   .nav-mobile{
     z-index: 999;
   }
