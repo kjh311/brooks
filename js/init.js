@@ -8,6 +8,10 @@
 //     alert("hidden");
 // } 
 
+
+$('.modal').modal();
+
+
 $('select').material_select();
 
 $('select').material_select();

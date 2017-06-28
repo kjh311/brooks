@@ -19,6 +19,12 @@
   .a-link{
     left:-20px;
   }
+  .amazon-icon{
+    width: 30px;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+  }
   .awards{
     width: 100%;
     transform: scale(1);
@@ -118,7 +124,7 @@
    }
    .contact-link{
     transform: scale(1);
-    padding: 10px;
+    padding: 15px;
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -147,6 +153,9 @@
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
+  }
+  .etiquette{
+    height: 70px;
   }
    .experience-container{
     position: relative;
@@ -197,6 +206,19 @@
   .hidden{
     display: none;
   }
+/*  html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+  }
+  ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 20px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}*/
   .icon-block {
     padding: 0 15px;
   }
@@ -244,6 +266,9 @@
   .mobile-link{
     font-size: 1.5em;
     font-weight: 500;
+  }
+  .modal-content{
+    color: black;
   }
   .name{
     position: absolute;
