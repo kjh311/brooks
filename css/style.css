@@ -60,6 +60,11 @@
     -moz-transition: all 0.5s ease;
     border: 2px solid orange;
   }
+  .behind{
+    color: black;
+    z-index: -200;
+    position: absolute;
+  }
    body{
     background-color: black;
     color: #fafafa;
@@ -246,6 +251,10 @@
    li{
     list-style-type:none
   }
+  .linkedin{
+    height: 70px;
+    width: 70px;
+  }
   .millionaire{
     width: 100%;
     margin-top: 15px;
@@ -318,7 +327,7 @@
     color: white;
     top: 200px;
     left: 200px;
-    width: 400px;
+    height: 400px;
     line-height: 1.5;
   }
   .social-icon{
@@ -364,11 +373,16 @@
   }
    .top-link{
     left: 20px;
-    font-size: 1.65em !important;
+    font-size: 1.75em !important;
     position: relative;
    }
    .top-link-header{
     margin-left: -33px;
+  }
+  .twitter{
+    width: 90px;
+    top: 10px;
+    position: relative;
   }
   .video-container{
     display: block;
